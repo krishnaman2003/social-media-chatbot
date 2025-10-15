@@ -1,6 +1,6 @@
 ---------.env----------
 FLASK_ENV=development
-MISTRAL_API_KEY=DRu1QIJlHvGVYo2L9InrNCBfRrUQu8k3
+MISTRAL_API_KEY=enter-your-mistral-api-key
 CORS_ORIGINS=http://localhost:3000
 
 
