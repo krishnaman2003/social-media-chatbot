@@ -28,7 +28,7 @@ CORS(app,
      expose_headers=["Content-Type", "Authorization"])
 
 # Initialize Mistral API key
-MISTRAL_API_KEY = os.environ.get('MISTRAL_API_KEY', 'DRu1QIJlHvGVYo2L9InrNCBfRrUQu8k3')
+MISTRAL_API_KEY = os.environ.get('MISTRAL_API_KEY', 'My Mistral API Key')
 SYSTEM_MESSAGE = """You are a helpful and knowledgeable AI assistant. Your responses should be clear, accurate, and helpful."""
 
 def init_db():
